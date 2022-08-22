@@ -1,0 +1,83 @@
+.note{
+    padding: 25px;
+    height: 30vh;
+    width: 20vw;
+    display:flex;
+    flex-direction: column;
+    background-color: aquamarine;
+    border-radius: 20px;
+}
+
+.note_textarea{
+    flex: 1;
+    resize: none;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+}
+
+.note_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.note_footer img{
+    cursor: pointer;
+    opacity: 0;
+    transition: 300ms;
+}
+
+.note:hover .note_footer img{
+    opacity: 1;
+}
+
+@media screen and (max-width: 1550px) {
+    .note{
+        width: 25vw;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    .note{
+        width: 25vw;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .note{
+        width: 25vw;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .note{
+        width: 30vw;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .note{
+        width: 30vw;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .note{
+        width: 35vw;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .note{
+        width: 40vw;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .note{
+        width: 45vw;
+    }
+}
