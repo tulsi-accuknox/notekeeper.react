@@ -2,10 +2,12 @@ import React from 'react'
 import Notes from '../Notes/Notes'
 import './Notescontainer.css'
 
-
+///////////////////////////for all notes//////////////////////////
 
 
 function Notescontainer(props) {
+
+  //////////////////////////for showing new note first/////////////////////////////
     const reverseArray = (arr) => {
         const array= []
 
@@ -28,8 +30,9 @@ function Notescontainer(props) {
          <Notes key={item.id} note={item}
          deleteNote = {props.deleteNote}
          updateText = {props.updateText}
+         updateTitle = {props.updateTitle}
          />)
-         ) : (<h2>Hey Welcome to Smiley Notes 😊 </h2>)}
+         ) : (<h3>Hey Welcome to Smiley Notes 😊 <br/><br/>💡Notes you write will get added here.</h3>) }
        </div>
     </div>
   )

@@ -1,7 +1,7 @@
 .note{
     padding: 25px;
-    height: 30vh;
-    width: 20vw;
+    height: 40vh;
+    width: 23vw;
     display:flex;
     flex-direction: column;
     background-color: aquamarine;
@@ -15,7 +15,23 @@
     border: none;
     background-color: transparent;
     font-size: 20px;
+    /* border: 1px solid gray; */
 }
+
+.note_text{
+    /* flex: 1; */
+    resize: none;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-size: 40px;
+    padding-left: 5px;
+
+}
+
+
+
+
 
 .note_footer{
     display: flex;
@@ -33,6 +49,18 @@
 .note:hover .note_footer img{
     opacity: 1;
 }
+
+.inputbox{
+    width: 30vh;
+    height: 3vh;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 10px;
+    border-bottom: 1px solid gray;
+    }
+
 
 @media screen and (max-width: 1550px) {
     .note{
